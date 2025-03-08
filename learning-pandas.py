@@ -7,3 +7,7 @@ covidcases = ["Covid-19", "Omicron", "Omega"]
 df = pd.DataFrame(np.random.randn(10, 3), index = dates, columns = covidcases)
 
 print(df)
+print(df.head(1))
+print(df.tail(1))
+print(df.T)
+print(df.describe())

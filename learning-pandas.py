@@ -3,7 +3,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 dates = list(pd.date_range(20250308, periods = 10))
-cases = "Covid-19 Omicron Omega"
 covidcases = ["Covid-19", "Omicron", "Omega"]
 df = pd.DataFrame(np.random.randn(10, 3), index = dates, columns = covidcases)
 

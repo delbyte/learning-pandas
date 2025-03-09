@@ -13,3 +13,5 @@ print(df.T)
 print(df.describe())
 
 print(df.sort_index(axis = 1, ascending=True))
+
+print(f"the numbers for Omicron are \n {df["Omicron"]}")

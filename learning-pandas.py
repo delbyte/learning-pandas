@@ -4,8 +4,8 @@ import numpy as np
 # Creating a dummy DataFrame
 data = {
     "Name": ["Alice", "Bob", "Charlie", "David", "Eva"],
-    "Age": [25, 30, 35, 40, 45],
-    "Salary": [50000, 60000, 70000, 80000, 90000],
+    "Age": [25, 30, 35, 40, np.nan],
+    "Salary": [50000, 60000, np.nan, 80000, 90000],
     "Department": ["HR", "IT", "Finance", "IT", "HR"],
     "Joining Date": pd.date_range("2020-01-01", periods=5, freq="Y"),
 }

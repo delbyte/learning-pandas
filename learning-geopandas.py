@@ -7,5 +7,6 @@ from geodatasets import get_path
 path_to_data = get_path("absaustralia_states_territories")
 gdf = gpd.read_file(path_to_data)
 
-print(gdf.info()+"\n\n")
+print(gdf.info())
+print("\n\n")
 print(gdf)
